@@ -13,7 +13,7 @@ $(TARGET): clean
 
 
 .PHONY: test
-run: $(TARGET)
+test: $(TARGET)
 	./$(TARGET)
 
 .PHONY: in
